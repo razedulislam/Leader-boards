@@ -1,7 +1,7 @@
 
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
-/*Common style */
+/*Common style start*/
 body{
     background-color: #E5E5E5;
     margin: 0;
@@ -15,6 +15,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 width: 807px;
 }
 
+/* common style End  */
 /* navigation-bar start */
 
 .navigaion-bar{
@@ -56,6 +57,8 @@ width: 807px;
 /* navigation-bar end */
 
 /*top player and top blogs */
+
+/* Top player style start */
 .header, .top-blog-header , .latest-course{
     display: grid;
     justify-content: center;
@@ -92,7 +95,7 @@ width: 807px;
     align-items: center;
 }
 
-/* Top players style start */
+/* Top players style End */
 
 /* Top Blogs style start */
 
@@ -276,8 +279,6 @@ padding: 5px;
         justify-content: center;
         
     }
-
-   
     .latest-course{
         display: grid;
         justify-content: start;
@@ -287,3 +288,5 @@ padding: 5px;
         margin-left: 250px;
     }
 }
+
+/* Media query for iPad End */
